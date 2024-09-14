@@ -257,6 +257,7 @@ a {
 .team-item-title {
   padding-bottom: 8px;
   padding-top: 32px;
+  text-align: center;
 }
 
 .team-item-paragraph {
