@@ -45,8 +45,8 @@ a {
   font-size: 36px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
+  text-align: center;
 }
 
 .section-title {
@@ -123,6 +123,10 @@ a {
   color: #f4f4fd;
 }
 
+.hero-title {
+  text-align: center;
+}
+
 .nav-link {
   display: block;
   padding: 24px 0;
@@ -157,19 +161,31 @@ a {
 
 /* Hero Section */
 
+.hero-container {
+  display: block;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
 .hero-title {
+  display: block;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   color: #ffffff;
+  padding-bottom: 48px;
 }
 
 .section-hero {
   background: #2e2f42;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -177,6 +193,10 @@ a {
   color: #ffffff;
   cursor: pointer;
   background: #4d5ae5;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .hero-button:hover,
@@ -186,7 +206,41 @@ a {
 
 /* Section Skills */
 
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.skills-list {
+  display: flex;
+  gap: 24px;
+}
+
+.skills-title {
+  display: none;
+}
+
+.skills-item-title {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 72px) / 4);
+}
+
 /* Section Our Team */
+
+.section-title {
+  display: block;
+  padding-bottom: 72px;
+  padding-top: 120px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 120px;
+}
 
 .section-our-team {
   background-color: #f4f4fd;
@@ -194,12 +248,36 @@ a {
 
 .team-item {
   background: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-item-title {
+  padding-bottom: 8px;
+  padding-top: 32px;
+}
+
+.team-item-paragraph {
+  text-align: center;
+  padding-bottom: 32px;
 }
 
 /* Section Our Portfolio */
 
+.portfolio-list {
+  display: flex;
+  gap: 48px 24px;
+  flex-wrap: wrap;
+}
+
 .portfolio-item {
   background: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 360px;
+  width: calc((100% - 48px) / 3);
 }
 
 /* Footer */
