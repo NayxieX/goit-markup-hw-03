@@ -29,6 +29,11 @@ ol {
 
 /* Common */
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -46,12 +51,14 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
 }
 
 .section-title {
   text-transform: capitalize;
   line-height: 1.11;
+  display: block;
+  padding-bottom: 72px;
+  text-align: center;
 }
 
 .skills-item-title,
@@ -163,8 +170,8 @@ a {
 
 .hero-container {
   display: block;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 34px;
+  padding-bottom: 34px;
 }
 
 .hero-title {
@@ -197,6 +204,7 @@ a {
   margin-right: auto;
   border-radius: 4px;
   padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover,
@@ -209,8 +217,6 @@ a {
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 120px;
-  margin-bottom: 120px;
 }
 
 .skills-list {
@@ -229,12 +235,6 @@ a {
 }
 
 /* Section Our Team */
-
-.section-title {
-  display: block;
-  padding-bottom: 72px;
-  padding-top: 120px;
-}
 
 .team-list {
   display: flex;
@@ -278,6 +278,19 @@ a {
   flex-direction: column;
   flex-basis: 360px;
   width: calc((100% - 48px) / 3);
+  margin-right: auto;
+}
+.portfolio-item-card-info {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
+
+.portfolio-item-title {
+  padding-bottom: 8px;
 }
 
 /* Footer */
@@ -288,4 +301,16 @@ a {
 
 .footer-paragraph {
   color: #f4f4fd;
+}
+
+.footer-logo {
+  padding-bottom: 16px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
