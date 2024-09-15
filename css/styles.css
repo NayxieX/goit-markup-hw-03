@@ -316,6 +316,8 @@ a {
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-paragraph {
@@ -331,6 +333,4 @@ a {
   display: flex;
   flex-direction: column;
   margin-left: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
