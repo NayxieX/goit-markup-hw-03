@@ -239,13 +239,17 @@ a {
 }
 
 .skills-title {
-  display: none;
+  visibility: hidden;
+}
+
+.skills-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .skills-item-title {
   display: flex;
   flex-direction: column;
-  width: calc((100% - 72px) / 4);
+  margin-bottom: 8px;
 }
 
 /* Section Our Team */
@@ -319,7 +323,8 @@ a {
 }
 
 .footer-logo {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-container {
