@@ -44,6 +44,10 @@ a {
   text-decoration: none;
 }
 
+.image {
+  display: block;
+}
+
 /* Global title/paragraph options */
 
 .title {
@@ -124,7 +128,7 @@ a {
 .header-logo {
   padding: 24px 0;
   padding-right: 76px;
-  margin-right: 76px
+  margin-right: 76px;
 }
 
 .footer-logo .accent-logo {
@@ -169,6 +173,11 @@ a {
 
 /* Hero Section */
 
+.section-hero {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
 .hero-container {
   display: block;
   padding-top: 34px;
@@ -184,6 +193,7 @@ a {
   margin-right: auto;
   color: #ffffff;
   padding-bottom: 48px;
+  max-width: 496px;
 }
 
 .section-hero {
@@ -206,6 +216,9 @@ a {
   border-radius: 4px;
   padding: 16px 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .hero-button:hover,
