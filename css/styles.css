@@ -127,7 +127,6 @@ a {
 
 .header-logo {
   padding: 24px 0;
-  padding-right: 76px;
   margin-right: 76px;
 }
 
@@ -180,8 +179,6 @@ a {
 
 .hero-container {
   display: block;
-  padding-top: 34px;
-  padding-bottom: 34px;
 }
 
 .hero-title {
@@ -192,7 +189,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   color: #ffffff;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   max-width: 496px;
 }
 
@@ -256,8 +253,6 @@ a {
 }
 
 .skills-item-title {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 8px;
 }
 
@@ -303,12 +298,7 @@ a {
 }
 
 .portfolio-item {
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  flex-basis: 360px;
   width: calc((100% - 48px) / 3);
-  margin-right: auto;
 }
 .portfolio-item-card-info {
   border-bottom: 1px solid #e7e9fc;
