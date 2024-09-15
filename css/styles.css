@@ -238,8 +238,17 @@ a {
   gap: 24px;
 }
 
-.skills-title {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .skills-item {
@@ -256,7 +265,6 @@ a {
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .section-our-team {
@@ -290,7 +298,6 @@ a {
   flex-wrap: wrap;
 }
 
-
 .portfolio-item {
   background: #fff;
   display: flex;
@@ -320,15 +327,10 @@ a {
 
 .footer-paragraph {
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .footer-logo {
   margin-bottom: 16px;
   display: inline-block;
-}
-
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
 }
