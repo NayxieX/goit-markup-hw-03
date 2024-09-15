@@ -277,17 +277,21 @@ a {
   border-radius: 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-item-card-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-item-title {
-  padding-bottom: 8px;
-  padding-top: 32px;
+  margin-bottom: 8px;
   text-align: center;
 }
 
 .team-item-paragraph {
   text-align: center;
-  padding-bottom: 32px;
 }
 
 /* Section Our Portfolio */
