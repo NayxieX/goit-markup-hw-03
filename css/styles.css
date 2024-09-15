@@ -61,7 +61,7 @@ a {
   text-transform: capitalize;
   line-height: 1.11;
   display: block;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   text-align: center;
 }
 
@@ -253,7 +253,6 @@ a {
 }
 
 /* Section Our Team */
-
 .team-list {
   display: flex;
   gap: 24px;
@@ -291,9 +290,6 @@ a {
   flex-wrap: wrap;
 }
 
-.portfolio-title {
-  margin-bottom: 72px;
-}
 
 .portfolio-item {
   background: #fff;
